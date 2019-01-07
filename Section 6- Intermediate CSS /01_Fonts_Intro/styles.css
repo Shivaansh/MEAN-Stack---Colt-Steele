@@ -1,0 +1,42 @@
+/*font-family*/
+p{
+	font-family: "Didot";
+}
+
+/*font-size*/
+h1{
+	/*font-size: 100px;*/
+	/* a span tag groups certain text items together */
+
+}
+
+/*body{
+	font-size: 10px;
+}*/
+
+p{
+	font-size: 40px;
+}
+
+span{
+	font-size: 2.0em;
+}
+/* font-weight: how thick/bold the lines are */
+p{
+	font-weight: 0;
+}
+
+/* Line height: line spacing basically */
+p{
+	line-height: 0.8;
+}
+/* text-align: alignment of text; */
+h1{
+	text-align: right;
+}
+p{
+	text-align: center;
+}
+/*text-decoration: underline/overline etc */
+p{
+	text-decoration: underline;

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+<form>
+	
+	<h1>Sign Up Form</h1>
+	
+	<label for="FirstName">First Name:</label>
+	<input id="FirstName" type="text" name="FirstName" placeholder="John" required>
+	<label for="LastName">Last Name:</label>
+	<input id="LastName" type="text" name="LastName" placeholder="Smith" required>
+	
+	<p>Choose your gender</p>
+	<label for="Male">Male</label>
+	<input id="Male" type="radio" name="gender">
+	<label for="Female">Female</label>
+	<input id="Female" type="radio" name="gender">
+	<label for="noPref">Prefer not to say</label>
+	<input id="noPref" type="radio" name="gender">
+	
+	<p>Email and Password</p>
+	<label for="Email">Email:</label>
+	<input type="Email" name="Email" id="Email" placeholder="something@example.com" required>
+	<label for="Password">Password (between 5 and 10 characters):</label>
+	<input type="Password" name="Password" id="Password" minlength="5" maxlength="10" required>
+
+	<p></p>
+	<label for="Birthday">Birthday:</label>
+
+	<select id="Birthday" name="Day">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+	</select>
+
+	<select id="Birthday" name="Month">
+		<option>Jan</option>
+		<option>Feb</option>
+		<option>Mar</option>
+		<option>Apr</option>
+		<option>May</option>
+		<option>jun</option>
+		<option>Jul</option>
+		<option>Aug</option>
+		<option>Sep</option>
+		<option>Oct</option>
+	</select>
+
+	<select id="Birthday" name="Year">
+		<option>1991</option>
+		<option>1992</option>
+		<option>1993</option>
+		<option>1994</option>
+		<option>1995</option>
+		<option>1996</option>
+		<option>1997</option>
+		<option>1998</option>
+		<option>1999</option>
+		<option>2000</option>
+	</select>
+
+	<p></p>
+	<label for="checkBox">I agree to the terms and conditions</label>
+	<input type="checkbox" id="checkBoxwsds" name="agree" value="agree">
+	<p></p>
+	<button>Submit</button>
+
+
+
+</form>
+
+
+
+
+</body>
+</html>
