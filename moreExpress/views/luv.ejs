@@ -1,0 +1,13 @@
+<%include partials/header%>
+<link rel="stylesheet" href = "app.css">
+
+<h1>You fell in love with: <%= thingVar.toUpperCase()%></h1>
+<%if(thingVar.toUpperCase() === "MACKENZ")
+{ %>
+
+     <p>THE BEST CHOICE!</p>
+<%} else {%>
+    <p>Should have said MacKenz</p>
+<% } %>
+<h5>This is the ejs file!!</h5>
+<%include partials/footer%>
